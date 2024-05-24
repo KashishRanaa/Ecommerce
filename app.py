@@ -2,7 +2,6 @@ from flask import Flask, jsonify, render_template, request, redirect, flash , se
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
 import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
 from recommendation import RecommendationModel
 
 app = Flask(__name__)
